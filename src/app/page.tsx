@@ -158,7 +158,7 @@ export default function PortfolioHomepage() {
             <div className="relative w-full max-w-md rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-2xl p-6 shadow-2xl shadow-black/50">
               <div className="rounded-3xl overflow-hidden border border-white/10">
                 <img
-                  src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/sign/img/profile.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNWExMTFhMy01ODJlLTQ0MzYtYTdiMC0xMzhhM2U3NzAzY2IiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbWcvcHJvZmlsZS53ZWJwIiwiaWF0IjoxNzc4NDk1MDI0LCJleHAiOjE4MTAwMzEwMjR9.gCtiIBXmPnDwxFYCOIGLlN24NdEqqN0gLKh-T0z_0a8"
+                  src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/sign/img/profile.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kNWExMTFhMy01ODJlLTQ0MzYtYTdiMC0xMzhhM2U3NzAzY2IiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbWcvcHJvZmlsZS53ZWJwIiwiaWF0IjoxNzc4NDk5NDU4LCJleHAiOjE4MTAwMzU0NTh9.9H7cYwEWGxaeyyLhHGLJLmqxl_eJLSmI8BUfzjkHn6c"
                   alt="profile"
                   className="w-full h-[480px] object-cover"
                 />
