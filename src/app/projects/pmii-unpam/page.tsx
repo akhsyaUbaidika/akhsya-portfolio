@@ -59,7 +59,7 @@ export default function PMIIStudyPage() {
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                         <Image
-                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/mermaid-diagram.webp"
+                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/architecture-diagram.webp"
                             alt="Architecture Diagram"
                             width={1600}
                             height={900}
@@ -82,7 +82,7 @@ export default function PMIIStudyPage() {
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                         <Image
-                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/mermaid-diagram%20(1).webp"
+                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/useCase-diagram.webp"
                             alt="Use Case Diagram"
                             width={1600}
                             height={900}
@@ -105,7 +105,7 @@ export default function PMIIStudyPage() {
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                         <Image
-                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/mermaid-diagram%20(3).webp"
+                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/entityRelationship-diagram.webp"
                             alt="ERD"
                             width={1600}
                             height={900}
@@ -124,7 +124,7 @@ export default function PMIIStudyPage() {
 
                         <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                             <Image
-                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/mermaid-diagram%20(4).webp"
+                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/sequence-diagram.webp"
                                 alt="Sequence Diagram"
                                 width={1200}
                                 height={1600}
@@ -140,7 +140,7 @@ export default function PMIIStudyPage() {
 
                         <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                             <Image
-                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/mermaid-diagram%20(2).webp"
+                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/activity-diagram.webp"
                                 alt="Activity Diagram"
                                 width={1200}
                                 height={1600}
