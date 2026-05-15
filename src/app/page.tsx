@@ -21,7 +21,7 @@ export default function PortfolioHomepage() {
       impact:
         'Enhanced operational efficiency and maintainability through structured backend architecture and scalable API design.',
       image:
-        'https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200&auto=format&fit=crop',
+        'https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/img/employeemanagement-cover.webp',
       link: '#',
     },
     {
@@ -33,7 +33,7 @@ export default function PortfolioHomepage() {
       impact:
         'Improved inventory planning visibility and operational insight through centralized forecasting workflows.',
       image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
+        'https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/img/inventory-forecasting-cover.webp',
       link: '#',
     },
   ]
