@@ -591,7 +591,7 @@ export default function PortfolioHomepage() {
             </a>
 
             <a
-              href="https://linkedin.com/in/akhsya"
+              href="https://linkedin.com/in/akhsya-ubaidika"
               target="_blank"
               className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 px-5 py-4 hover:bg-white/[0.05] transition-all duration-300"
             >
