@@ -9,7 +9,7 @@ export default function PortfolioHomepage() {
       impact:
         'Improved digital accessibility and organizational communication efficiency through scalable cloud deployment and responsive system architecture.',
       image:
-        'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+        'https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/img/pmiiunpamcom-cover.webp',
       link: 'https://pmiiunpam.com',
     },
     {
