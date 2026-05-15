@@ -58,7 +58,7 @@ export default function PMIIStudyPage() {
                     </div>
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
-                        <Image
+                        <img
                             src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/architecture-diagram.webp"
                             alt="Architecture Diagram"
                             width={1600}
@@ -81,7 +81,7 @@ export default function PMIIStudyPage() {
                     </div>
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
-                        <Image
+                        <img
                             src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/useCase-diagram.webp"
                             alt="Use Case Diagram"
                             width={1600}
@@ -104,7 +104,7 @@ export default function PMIIStudyPage() {
                     </div>
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
-                        <Image
+                        <img
                             src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/entityRelationship-diagram.webp"
                             alt="ERD"
                             width={1600}
@@ -123,7 +123,7 @@ export default function PMIIStudyPage() {
                         </h3>
 
                         <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
-                            <Image
+                            <img
                                 src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/sequence-diagram.webp"
                                 alt="Sequence Diagram"
                                 width={1200}
@@ -139,7 +139,7 @@ export default function PMIIStudyPage() {
                         </h3>
 
                         <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
-                            <Image
+                            <img
                                 src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/activity-diagram.webp"
                                 alt="Activity Diagram"
                                 width={1200}
