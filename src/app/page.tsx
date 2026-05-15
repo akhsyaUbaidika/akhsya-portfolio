@@ -602,7 +602,7 @@ export default function PortfolioHomepage() {
               <div>
                 <p className="text-sm text-zinc-500">LinkedIn</p>
                 <p className="text-zinc-300 group-hover:text-white transition-colors">
-                  linkedin.com/in/akhsya
+                  linkedin.com/in/akhsya-ubaidika
                 </p>
               </div>
             </a>
