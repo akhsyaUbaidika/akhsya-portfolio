@@ -447,7 +447,7 @@ export default function PortfolioHomepage() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
-          <a href="https://drive.google.com/drive/folders/11dxzPgvo7AYo2jbsYFiuhrHMcHs0s9by?usp=drive_link">
+          <a target='_blank' href="https://drive.google.com/drive/folders/11dxzPgvo7AYo2jbsYFiuhrHMcHs0s9by?usp=drive_link">
             <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 lg:p-10">
               <div className="space-y-6">
                 <div className="inline-flex px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-300 text-sm">
@@ -467,7 +467,7 @@ export default function PortfolioHomepage() {
             </div>
           </a>
 
-          <a href="https://drive.google.com/drive/folders/1Ccw-JQY4CiQZNkYGNNyVN5Q4jutuDXI7?usp=drive_link">
+          <a target='_blank' href="https://drive.google.com/drive/folders/1Ccw-JQY4CiQZNkYGNNyVN5Q4jutuDXI7?usp=drive_link">
             <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 lg:p-10">
               <div className="space-y-6">
                 <div className="inline-flex px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 text-sm">
