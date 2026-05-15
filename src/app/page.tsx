@@ -447,41 +447,45 @@ export default function PortfolioHomepage() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
-          <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 lg:p-10">
-            <div className="space-y-6">
-              <div className="inline-flex px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-300 text-sm">
-                AWS Certified
+          <a href="https://drive.google.com/drive/folders/11dxzPgvo7AYo2jbsYFiuhrHMcHs0s9by?usp=drive_link">
+            <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 lg:p-10">
+              <div className="space-y-6">
+                <div className="inline-flex px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-300 text-sm">
+                  AWS Certified
+                </div>
+
+                <h3 className="text-3xl font-bold">
+                  AWS Cloud Data Analytics
+                </h3>
+
+                <p className="text-zinc-400 text-lg leading-8">
+                  Learned cloud architecture fundamentals, data analytics
+                  workflows, scalable infrastructure concepts, and modern cloud
+                  deployment practices using AWS services.
+                </p>
               </div>
-
-              <h3 className="text-3xl font-bold">
-                AWS Cloud Data Analytics
-              </h3>
-
-              <p className="text-zinc-400 text-lg leading-8">
-                Learned cloud architecture fundamentals, data analytics
-                workflows, scalable infrastructure concepts, and modern cloud
-                deployment practices using AWS services.
-              </p>
             </div>
-          </div>
+          </a>
 
-          <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 lg:p-10">
-            <div className="space-y-6">
-              <div className="inline-flex px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 text-sm">
-                Backend Development
+          <a href="https://drive.google.com/drive/folders/1Ccw-JQY4CiQZNkYGNNyVN5Q4jutuDXI7?usp=drive_link">
+            <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 lg:p-10">
+              <div className="space-y-6">
+                <div className="inline-flex px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 text-sm">
+                  Backend Development
+                </div>
+
+                <h3 className="text-3xl font-bold">
+                  Express.js Web Back-End Development
+                </h3>
+
+                <p className="text-zinc-400 text-lg leading-8">
+                  Developed backend systems using Express.js, REST API
+                  architecture, authentication workflows, and database
+                  integration for scalable application development.
+                </p>
               </div>
-
-              <h3 className="text-3xl font-bold">
-                Express.js Web Back-End Development
-              </h3>
-
-              <p className="text-zinc-400 text-lg leading-8">
-                Developed backend systems using Express.js, REST API
-                architecture, authentication workflows, and database
-                integration for scalable application development.
-              </p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
