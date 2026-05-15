@@ -1,3 +1,14 @@
+import {
+  Globe,
+  Database,
+  Cloud,
+  BriefcaseBusiness,
+  Workflow,
+  Layers3,
+  Server,
+  Building2,
+} from 'lucide-react'
+
 export default function PortfolioHomepage() {
   const projects = [
     {
@@ -39,14 +50,38 @@ export default function PortfolioHomepage() {
   ]
 
   const expertise = [
-    'Web System Development',
-    'REST API Architecture',
-    'Cloud Deployment',
-    'Business Requirement Understanding',
-    'System Workflow Analysis',
-    'Frontend & Backend Integration',
-    'Database Design',
-    'Organizational Digital Solutions',
+    {
+      title: 'Web System Development',
+      icon: Globe,
+    },
+    {
+      title: 'REST API Architecture',
+      icon: Server,
+    },
+    {
+      title: 'Cloud Deployment',
+      icon: Cloud,
+    },
+    {
+      title: 'Business Requirement Understanding',
+      icon: BriefcaseBusiness,
+    },
+    {
+      title: 'System Workflow Analysis',
+      icon: Workflow,
+    },
+    {
+      title: 'Frontend & Backend Integration',
+      icon: Layers3,
+    },
+    {
+      title: 'Database Design',
+      icon: Database,
+    },
+    {
+      title: 'Organizational Digital Solutions',
+      icon: Building2,
+    },
   ]
 
   const technologies = [
@@ -459,16 +494,22 @@ export default function PortfolioHomepage() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {expertise.map((item) => (
-            <div
-              key={item}
-              className="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 hover:-translate-y-1 transition-transform duration-300"
-            >
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 border border-white/10 mb-6" />
+          {expertise.map((item) => {
+            const Icon = item.icon
 
-              <h3 className="text-lg font-medium leading-8">{item}</h3>
-            </div>
-          ))}
+            return (
+              <div
+                key={item.title}
+                className="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 hover:-translate-y-1 transition-transform duration-300"
+              >
+                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 border border-white/10 mb-6 flex items-center justify-center">
+                  <Icon className="w-6 h-6 text-violet-300" />
+                </div>
+
+                <h3 className="text-lg font-medium leading-8">{item.title}</h3>
+              </div>
+            )
+          })}
         </div>
       </section>
 
