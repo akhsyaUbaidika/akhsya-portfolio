@@ -7,7 +7,10 @@ import {
   Layers3,
   Server,
   Building2,
+  Mail
 } from 'lucide-react'
+
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function PortfolioHomepage() {
   const projects = [
@@ -553,33 +556,72 @@ export default function PortfolioHomepage() {
             </p>
           </div>
 
-          <div className="space-y-5 text-lg">
+          <div className="space-y-4 w-full max-w-md">
             <a
               href="mailto:akhsya.ubaidika@gmail.com"
-              className="block text-zinc-300 hover:text-white transition-colors"
+              className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 px-5 py-4 hover:bg-white/[0.05] transition-all duration-300"
             >
-              akhsya.ubaidika@gmail.com
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 border border-white/10 flex items-center justify-center">
+                <Mail className="w-5 h-5 text-violet-300" />
+              </div>
+
+              <div>
+                <p className="text-sm text-zinc-500">Email</p>
+                <p className="text-zinc-300 group-hover:text-white transition-colors">
+                  akhsya.ubaidika@gmail.com
+                </p>
+              </div>
             </a>
 
             <a
-              href="https://github.com"
-              className="block text-zinc-300 hover:text-white transition-colors"
+              href="https://github.com/akhsyaUbaidika"
+              target="_blank"
+              className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 px-5 py-4 hover:bg-white/[0.05] transition-all duration-300"
             >
-              github.com/akhsyaUbaidika
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 border border-white/10 flex items-center justify-center">
+                <FaGithub className="w-5 h-5 text-violet-300" />
+              </div>
+
+              <div>
+                <p className="text-sm text-zinc-500">GitHub</p>
+                <p className="text-zinc-300 group-hover:text-white transition-colors">
+                  github.com/akhsyaUbaidika
+                </p>
+              </div>
             </a>
 
             <a
-              href="https://linkedin.com"
-              className="block text-zinc-300 hover:text-white transition-colors"
+              href="https://linkedin.com/in/akhsya"
+              target="_blank"
+              className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 px-5 py-4 hover:bg-white/[0.05] transition-all duration-300"
             >
-              linkedin.com/in/akhsya
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 border border-white/10 flex items-center justify-center">
+                <FaLinkedin className="w-5 h-5 text-violet-300" />
+              </div>
+
+              <div>
+                <p className="text-sm text-zinc-500">LinkedIn</p>
+                <p className="text-zinc-300 group-hover:text-white transition-colors">
+                  linkedin.com/in/akhsya
+                </p>
+              </div>
             </a>
 
             <a
               href="https://akhsya.cloud"
-              className="block text-zinc-300 hover:text-white transition-colors"
+              target="_blank"
+              className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 px-5 py-4 hover:bg-white/[0.05] transition-all duration-300"
             >
-              akhsya.cloud
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 border border-white/10 flex items-center justify-center">
+                <Globe className="w-5 h-5 text-violet-300" />
+              </div>
+
+              <div>
+                <p className="text-sm text-zinc-500">Portfolio</p>
+                <p className="text-zinc-300 group-hover:text-white transition-colors">
+                  akhsya.cloud
+                </p>
+              </div>
             </a>
           </div>
         </div>
