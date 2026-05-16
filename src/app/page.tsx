@@ -376,7 +376,7 @@ export default function PortfolioHomepage() {
                       <span>→</span>
                     </a>
                   )}
-                  {project.title === 'Employee Management System' && (
+                  {project.title === 'Employee Management REST API' && (
                     <a
                       target='_blank'
                       href={project.link}
