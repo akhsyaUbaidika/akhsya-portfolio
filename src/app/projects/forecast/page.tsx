@@ -59,7 +59,7 @@ export default function PMIIStudyPage() {
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                         <img
-                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/pmiiunpam/architecture-diagram.webp"
+                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/forecast/architecture-diagram.webp"
                             alt="Architecture Diagram"
                             width={1600}
                             height={900}
@@ -82,7 +82,7 @@ export default function PMIIStudyPage() {
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                         <img
-                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/pmiiunpam/useCase-diagram.webp"
+                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/forecast/useCase-diagram.webp"
                             alt="Use Case Diagram"
                             width={1600}
                             height={900}
@@ -105,7 +105,7 @@ export default function PMIIStudyPage() {
 
                     <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                         <img
-                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/pmiiunpam/entityRelationship-diagram.webp"
+                            src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/forecast/entityRelationship-diagram.webp"
                             alt="ERD"
                             width={1600}
                             height={900}
@@ -124,7 +124,7 @@ export default function PMIIStudyPage() {
 
                         <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                             <img
-                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/pmiiunpam/sequence-diagram.webp"
+                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/forecast/sequence-diagram.webp"
                                 alt="Sequence Diagram"
                                 width={1200}
                                 height={1600}
@@ -140,7 +140,7 @@ export default function PMIIStudyPage() {
 
                         <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/[0.03] p-4">
                             <img
-                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/pmiiunpam/activity-diagram.webp"
+                                src="https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/uml/forecast/activity-diagram.webp"
                                 alt="Activity Diagram"
                                 width={1200}
                                 height={1600}

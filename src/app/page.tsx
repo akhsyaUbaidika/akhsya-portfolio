@@ -374,6 +374,15 @@ export default function PortfolioHomepage() {
                       <span>→</span>
                     </a>
                   )}
+                  {project.title === 'Inventory Forecasting System' && (
+                    <a
+                      href="/projects/forecast"
+                      className="inline-flex items-center gap-3 text-zinc-300 hover:text-white transition-colors"
+                    >
+                      View Case Study
+                      <span>→</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
