@@ -36,7 +36,7 @@ export default function PortfolioHomepage() {
         'Enhanced operational efficiency and maintainability through structured backend architecture and scalable API design.',
       image:
         'https://fdrpzuulgsjcdscsyzgu.supabase.co/storage/v1/object/public/img/employeemanagement-cover.webp',
-      link: '#',
+      link: 'https://github.com/akhsyaUbaidika/employee_management',
     },
     {
       title: 'Inventory Forecasting System',
@@ -357,14 +357,16 @@ export default function PortfolioHomepage() {
                 </div>
 
                 <div className="flex flex-wrap gap-4">
-                  <a
-                    href={project.link}
-                    className="inline-flex items-center gap-3 text-white hover:text-violet-300 transition-colors"
-                  >
-                    Visit Project
-                    <span>↗</span>
-                  </a>
-
+                  {project.title === 'PMII UNPAM Platform' && (
+                    <a
+                      target='_blank'
+                      href={project.link}
+                      className="inline-flex items-center gap-3 text-white hover:text-violet-300 transition-colors"
+                    >
+                      Visit Project
+                      <span>↗</span>
+                    </a>
+                  )}
                   {project.title === 'PMII UNPAM Platform' && (
                     <a
                       href="/projects/pmii-unpam"
@@ -372,6 +374,16 @@ export default function PortfolioHomepage() {
                     >
                       View Case Study
                       <span>→</span>
+                    </a>
+                  )}
+                  {project.title === 'Employee Management System' && (
+                    <a
+                      target='_blank'
+                      href={project.link}
+                      className="inline-flex items-center gap-3 text-white hover:text-violet-300 transition-colors"
+                    >
+                      Visit Project
+                      <span>↗</span>
                     </a>
                   )}
                   {project.title === 'Inventory Forecasting System' && (
